@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-	<meta property="og:url" content="https://csvp.g12.br/">
-	<meta property="article:publisher" content="https://www.facebook.com/rio.csvp">
-	<meta property="article:modified_time" content="2024-09-05T19:43:57+00:00">
-	<meta property="og:image" content="https://csvp.g12.br/wp-content/uploads/2023/08/1.png">
-	<meta name="twitter:card" content="summary_large_image">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,35 +8,31 @@
     <meta property="og:image:type" content="quizweb.png">
     <meta property="og:image:width" content="403">
     <meta property="og:image:height" content="237">
-       <link rel="stylesheet" href="https://github.com/jailton-sousa/csvp/style.css">
+   <link rel="stylesheet" href="https://kaiotrajano.github.io/Quiz/style.css">
     <script src="https://kit.fontawesome.com/95442199ab.js" crossorigin="anonymous"></script>
-   
-	<!-- seta, símbolo do botão de início --> 
-   <script src="https://kit.fontawesome.com/95442199ab.js" crossorigin="anonymous"></script>
- 
-	<title>CSVP Quiz</title>
+    <title>Quiz</title>
 </head>
+
     <body>
 <nav>
-    <h1 class="mark">Quiz_CSVP</h1>
-    <span><a href="https://csvp.g12.br/home/" target="_blank">Colégio São Vicente de Paulo</a></span>
+    <h1 class="mark">Quizweb</h1>
+    <span><a href="https://github.com/KaioTrajano" target="_blank">GitHub</a></span>
 </nav>
 
 <div class="finishon" id="playername">
-    <h3>Bem vindo ao <br> <span id="nameweb">Quiz do CSVP!&#128512</span></h3>
+    <h3>Bem vindo ao <br> <span id="nameweb">Quizweb &#128512</span></h3>
      <div class="roww">
      <input id="playernameinput" placeholder="Seu nome é" autocomplete="off">
      <button class="jogardenovo" id="começar"><i class="fa-solid fa-arrow-right"></i></button>
-     <br>
-     <br>
     </div>
-    <br>
 </div>  
+
 
 <div class="finishoff" id="finish">
   <p>Parabéns <span id="name"></span>, Quiz finalizado!</p>
    
   <p class="pa">Perguntas acertadas</p>
+
   <p id="pts"></p>
 
   <p class="pts">Nivel de Desempenho:</p>
@@ -69,43 +56,43 @@
 <div class="quadrodequizes" id="quadrodequizes">
 
 <div class="quizes">
-<img class="quizesimage" src="https://github.com/jailton-sousa/csvp/blob/main/sobre_o_csvp.png" alt="Quiz sobre O CSVP">
-<div><p class="titulo">Sobre o CSVP</p>
-    <p class="description">E ai, conhece nossa História, vamos testar o seu conhecimento?</p>
+<img class="quizesimage" src="programingteste.png" alt="">
+<div><p class="titulo">Programação</p>
+    <p class="description">Você é um programador? será que consegue acertar todas as perguntas?</p>
     <span class="status"></span>
-    <button class="selectquiz" id="sobreocsvpbutton">Clique Aqui para Iniciar</button>
-    <input type="checkbox" id="sobreocsvpcheckbox">
+    <button class="selectquiz" id="programingbutton">Iniciar Quiz</button>
+    <input type="checkbox" id="programingcheckbox">
 </div>
 
 </div>
 <div class="quizes">
-    <img class="quizesimage" src="C:\Users\jailton.sousa.CSVP\OneDrive - PBCM - Colégio São Vicente de Paulo\Imagens\quiz\portugues.jpg" alt="Quiz sobre Portuguê">
+    <img class="quizesimage" src="medical-logo.jpg" alt="">
     <div>
-        <p class="titulo">Português</p>
-        <p class="description">Vamos ver os seus conhecimentos sobre português?</p>
+        <p class="titulo">Medicina</p>
+        <p class="description">Se você leva jeito para medicina então esse é o quiz feito para você</p>
         <span class="status"></span>
-    <button class="selectquiz" id="medicine">Clique Aqui para Iniciar</button>
+    <button class="selectquiz" id="medicine">Iniciar Quiz</button>
      <input type="checkbox" id="medicinecheckbox">
     </div>
 </div>
 <div class="quizes">
-    <img class="quizesimage" src="C:\Users\jailton.sousa.CSVP\OneDrive - PBCM - Colégio São Vicente de Paulo\Imagens\quiz\conhecimentos.jpg" alt="Quiz sobre Conhecimentos Gerais">
+    <img class="quizesimage" src="brain.jpg" alt="">
     <div>
         <p class="titulo">Conhecimentos gerais</p>
-    <p class="description">Vamos participar deste desafio?</p>
+    <p class="description">Você se considera um sabe tudo? esse quiz vai te desafiar</p>
         <span class="status"></span>
-    <button class="selectquiz" id="conhecimento">Clique Aqui para Iniciar</button>
+    <button class="selectquiz" id="conhecimento">Iniciar Quiz</button>
     <input type="checkbox" id="conhecimentocheckbox">
     </div>
     
 </div>
 <div class="quizes">
-    <img class="quizesimage" src="C:\Users\jailton.sousa.CSVP\OneDrive - PBCM - Colégio São Vicente de Paulo\Imagens\quiz\matematica.jpg" alt="Quiz Matemática">
+    <img class="quizesimage" src="math.jpg" alt="">
     <div>
         <p class="titulo">Matemática</p>
-    <p class="description">Se você é bom em exatas, vamos testar nesse desafio?</p>
+    <p class="description">Se você é bom em exatas, esse quiz não deve ser um desafio para você</p>
         <span class="status"></span>
-    <button class="selectquiz" id="matematicabutton">Clique Aqui para Iniciar</button>
+    <button class="selectquiz" id="matematicabutton">Iniciar Quiz</button>
     <input type="checkbox" id="matematicacheckbox">
     </div>
 </div>
@@ -113,6 +100,8 @@
 </div>
 
 </div>
+
+
 
 
 <div class="quadrodeperguntas" id="quadrodeperguntas">
@@ -125,17 +114,21 @@
 
 </div>
 
+
 <button class="resposta" id="resposta1" name="res" type="submit"></button>
 <button class="resposta" id="resposta2" name="res" type="submit"></button>
 <button class="resposta" id="resposta3" name="res" type="submit"></button>
 <button class="resposta" id="resposta4" name="res" type="submit"></button>
 
+
 </div>
 
+
+
 <footer>
-	
+
 </footer>
       
-<script src="https://github.com/jailton-sousa/csvp/style.css\scripts.js"></script>
+<script src="https://kaiotrajano.github.io/Quiz/scripts.js"></script>
 
 </body>
